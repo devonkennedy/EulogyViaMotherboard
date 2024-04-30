@@ -1,0 +1,38 @@
+/*CSS GOES HERE*/
+body 
+{
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(to bottom,rgb(19, 127, 170), rgb(188, 216, 254));
+    background-repeat: no-repeat;
+    cursor: pointer;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+    list-style-type: none;
+  }
+  img 
+  {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+#background-video {
+  padding-right: 20%;
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+  position:fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+}
